@@ -1,0 +1,30 @@
+// класичиский запуск программы демонстрация кода
+
+#build <lib.pgt>
+#build <lib.pgt, function>
+
+import start
+
+Class start {
+    give()::{
+        trs::(function);
+        print::("function");
+    }
+    exit::();
+}
+
+import exit::end::();
+
+// класичиский запуск программы демонстрация кода без использования библиотеки
+
+import start 
+
+Class main {
+    give()::{
+        print::("Hello world");
+    }
+    
+    exit::();
+}
+
+import exit::end::();
